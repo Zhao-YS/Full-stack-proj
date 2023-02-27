@@ -1,0 +1,112 @@
+# Full Stack
+
+## HTML
+
+#### HTML tags
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website/title>
+    </head>
+    <body>
+        Hello there.
+    </body>
+</html>
+```
+
+- html, head, etcis a tag
+
+**h1 tag**: a header(to h6)
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website/title>
+    </head>
+    <body>
+        <h1>Hello there.</h1>
+    </body>
+</html>
+```
+
+**paragraph tag**
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website/title>
+    </head>
+    <body>
+        <h1>Hello there.</h1>
+        <p> lksksks </p>
+    </body>
+</html>
+```
+
+**bold tag**
+
+<b>: on pc<strong>
+
+<i>: on phone<em>
+
+##### order list(ol)/ unorder list
+
+![image-20230226200746389](/Users/frankchao/Library/Application Support/typora-user-images/image-20230226200746389.png)
+
+![image-20230226200805814](/Users/frankchao/Library/Application Support/typora-user-images/image-20230226200805814.png)
+
+##### Break \<br>, \<hr>
+
+##### Img: \<img>: one single, no closin:
+
+Attribute: special properties, always have a value.
+
+### Anchor tag
+
+- \<a>
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website</title>
+    </head>
+    <body>
+        <h1>Hello there.</h1>
+        <a href = "newpage.html">New page</a>
+        <p><strong>Lorem ipsum </strong>dolor sit amet consectetur adipisicing elit. Aspernatur culpa earum at quibusdam consequatur hic quaerat! Tempora totam vitae voluptas esse voluptatibus delectus provident, quas nihil! Praesentium recusandae veritatis velit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil suscipit laborum soluta eos quo mollitia, perspiciatis quos expedita perferendis aut quibusdam voluptas, nam dolores omnis. Dolor dolore error exercitationem iste!</p>
+        <ul>
+            <li>bana</li>
+            <li>bbb</li>
+            <ol>
+                <li>pp</li><hr>
+                <img src = data:image/jpeg;base64,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>
+                <li>111</li>
+            </ol>
+        </ul>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New page</title>
+    </head>
+    <body>
+        <h1>This is new page</h1>
+        <a href = "index.html">
+            <h2>Go Back</h2>
+        </a>
+    </body>
+</html>
+```
+
+Index.html always is the server returns
+
+### HTML forms
+
